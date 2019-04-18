@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<package uuid="take_picture-77499c" version="0.0.0">
+ <names>
+  <name lang="en_US">take_picture</name>
+ </names>
+ <supportedLanguages>
+  <language>en_US</language>
+ </supportedLanguages>
+ <descriptionLanguages>
+  <language>en_US</language>
+ </descriptionLanguages>
+ <contents>
+  <behaviorContent path="behavior_1">
+   <userRequestable/>
+   <nature>interactive</nature>
+   <triggerSentences>
+    <sentence lang="en_US">Can we take a picture</sentence>
+    <sentence lang="en_US">Take a picture</sentence>
+    <sentence lang="en_US">take a photo</sentence>
+    <sentence lang="en_US">can we take a photo</sentence>
+   </triggerSentences>
+   <loadingResponses>
+    <sentence lang="en_US">Ok, step back!</sentence>
+   </loadingResponses>
+   <autonomous/>
+   <permissions/>
+  </behaviorContent>
+ </contents>
+</package>
